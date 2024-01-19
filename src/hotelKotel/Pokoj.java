@@ -1,12 +1,12 @@
 package hotelKotel;
 
-public class pokoje {
+public class Pokoj {
     private int pocetLuzek;
     private int cenaNaNoc;
     private boolean balkon;
     private boolean vyhledNaMore;
 
-    public pokoje(int pocetLuzek, int cenaNaNoc, boolean balkon, boolean vyhledNaMore) {
+    public Pokoj(int pocetLuzek, int cenaNaNoc, boolean balkon, boolean vyhledNaMore) {
         this.pocetLuzek = pocetLuzek;
         this.balkon = balkon;
         this.cenaNaNoc = cenaNaNoc;
